@@ -1,0 +1,29 @@
+<!-- Generic Template for a new HTML file -->
+<html>
+ <head>
+ </head>
+
+ <body>
+	<noscript>Sorry, you must enable JS for this to work.</noscript>
+
+	<script>
+	
+		let entryA = prompt("Enter any value", 12345.6789);
+		document.write(entryA);
+		document.write("<br>" + (parseInt(entryA) + 5));
+		document.write("<br>" + (parseFloat(entryA) + 5));
+		
+		let val = prompt("What is your age");
+		if (isNaN(parseInt(val)))
+		{
+		document.write("You did not enter a proper age<br>");
+		}
+		else
+		{
+		document.write("you are " + val + "years old");
+		}
+		
+	</script>
+ </body>
+
+</html>
