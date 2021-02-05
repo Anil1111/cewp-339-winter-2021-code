@@ -1,0 +1,32 @@
+<body>
+
+
+	<script>
+	
+		let a1 = [];
+	
+		for (i = 0; i<20; i++)
+		{
+			a1[i] = i ** 2;
+		}
+	
+		// document.write(a1);
+	
+		for (let n in a1)
+		{
+			a1[n] = a1[n]+1;
+			document.write(a1[n] + " ");
+		}
+		
+		document.write("<br>");
+		
+		for (let m of a1)
+		{
+			document.write(m + " ");
+		}
+	
+	</script>
+
+
+
+</body>

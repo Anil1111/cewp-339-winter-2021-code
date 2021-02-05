@@ -1,0 +1,35 @@
+<body>
+
+
+	<script>
+	
+		function isEven(val)
+		{
+			if(val % 2 == 0)
+			{
+				document.write(val + " is even");
+			}
+			else
+			{
+				document.write(val + " is odd");
+			}
+			
+			document.write("<br>");
+		}
+	
+	
+		let a1 = [];
+	
+		for (i = 0; i<20; i++)
+		{
+			a1[i] = i + 1;
+		}
+	
+		a1.reverse();
+		a1.forEach(isEven);
+	
+	</script>
+
+
+
+</body>
