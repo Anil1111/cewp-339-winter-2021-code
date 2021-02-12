@@ -1,0 +1,23 @@
+<html>
+<body>
+
+	<h1>The content of array1 is below:</h1>
+	<span id="s1"></span>
+	
+	<script>
+		"use strict";
+		
+		function displayData(val)
+		{
+			let target = document.getElementById("s1");
+			target.innerHTML += ("<hr>" + val);
+		}
+		
+		var array1 = ["A", "B", "C", "D"];
+		
+		array1.forEach(displayData);
+		
+	</script>
+	
+</body>
+</html>

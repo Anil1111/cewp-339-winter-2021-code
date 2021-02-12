@@ -1,0 +1,30 @@
+<html>
+<body>
+	<script>
+		"use strict";
+	
+		var array1 = ["A", "B", "C", "D"];
+		
+		// FOR-IN - Works with index
+		for (let s in array1)
+		{
+			document.write("Array element #" + s + " contains value " +
+			    array1[s] + "<br>");
+		}
+		
+		
+		// FOR-OF - Works with the value
+		
+		let counter = 0;
+		
+		for (let s of array1)
+		{
+			document.write("Array element #" + counter + " contains value " +
+			    s + "<br>");
+				
+			counter++;
+		}
+		
+	</script>
+</body>
+</html>
